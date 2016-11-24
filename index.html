@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<title>Smash Face</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+	</head>
+	<body>
+		<header>
+			<div class="container bordes">
+				<div class="row">
+					<div class="col-md-12 col-sm-12">
+						<h1>Smash Faces</h1>
+						<hr>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12 col-sm-12 pd-5">
+						<p>Bienvenidas al juego de Samsh Faces, tu misión es poder identificar a todas tus compañeras de clase ingresando para ellos su nombre. Tienes 5 oportunidades antes de perder 1 punto y pasar a la siguiente.</p>
+					</div>
+				</div>
+			</div>
+		</header>
+		<section>
+			<div class="container bordes">
+				<div class="row">
+					<div class="col-md-6 col-sm-6 pd-5">
+						<form>
+							<label for="sede">Elige tu sede: </label>
+							<select name="sede">
+								<option value="0"></option>
+								<option value="arequipa">Arequipa</option>
+								<option value="chile">Chile</option>
+								<option value="lima">Lima</option>
+								<option value="mexico">México</option>
+							</select>
+						</form>
+					</div>
+					<div class="col-md-6 col-sm-6 pd-5 text-right">
+						<p>Puntos: <strong id="puntos">0</strong> puntos</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4 col-sm-4 pd-5">
+						<img id="foto" class="img-responsive" src="" alt="">
+					</div>
+					<div class="col-md-8 col-sm-8 pd-5">
+						<form>
+							<label for="nombre">Ingresa su nombre:</label>
+							<input type="text" name="nombre" id="nombre">
+							<input type="submit" value="Comprobar" id="enviar" class="btn">
+						</form>
+						<span>Sigue intentandolo</span>
+					</div>
+				</div>
+			</div>
+		</section>
+		<script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>

@@ -1,0 +1,44 @@
+body{
+	background-image: url("../img/bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 5%;
+	color: #000;
+}
+.bordes{
+	background-color: rgba(204,113,118,0.4);
+}
+hr{
+	width: 100%;
+	border: 1px dashed #0C5486;
+}
+h1{
+	color: #B01273;
+	font-weight: 900;
+}
+.pd-5{
+	padding: 5%;
+}
+#foto{
+	border: 1px solid #7A0B4F;
+}
+input{
+	display: block;
+	margin-top: 2%;
+}
+input#nombre{
+	width: 100%;
+	border: 0;
+	padding: 1%;
+}
+input#enviar{
+	background-color: #681B71;
+	color: #fff;
+}
+span{
+	display: block;
+	margin-top: 10%;
+	color: #760707;
+	font-size: 1em;
+	font-weight: bold;
+}
