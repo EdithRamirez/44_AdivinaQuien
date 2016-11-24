@@ -132,8 +132,6 @@ $(document).ready(function() {
 	var contError = 0;
 	var puntuaje = 0 ;
 
-
-
 	//funcion random para que cambie la imagen
 	function getFoto(max,min) {
 		return Math.floor(Math.random() * (max-min) ) + min;
@@ -141,8 +139,7 @@ $(document).ready(function() {
 	var fotoAlumna = getFoto(0,42);
 	// $("#foto").attr("src", (mexico[fotoAlumna]["foto"]));
 
-
-		//Opcion de select
+	//Opcion de select
 	$('select').on('change', function() {
 		console.log('Cambio valor de select');
 		//verifica la opcion del select
@@ -156,10 +153,10 @@ $(document).ready(function() {
 			$("#foto").attr("src", (mexico[fotoAlumna]["foto"]));
 		}
 	});
+
+	//crea la etiqueta span que muestra correcto o fallaste
 	var span = $('<span></span>');
 	var puntos = $("#puntos");
-
-	
 
 	$('#enviar').on('click', function() {
 		console.log('Click en boton comprobar');
@@ -176,6 +173,7 @@ $(document).ready(function() {
 			$('#nombre').val("");
 			//contador de puntuaje acertado
 			puntuaje = puntuaje + 5;
+			//ca
 			$("#puntos").html(" " + puntuaje);
 
 		} else {
