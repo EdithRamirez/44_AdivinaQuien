@@ -38,7 +38,12 @@ input#enviar{
 span{
 	display: block;
 	margin-top: 10%;
-	color: #760707;
 	font-size: 1em;
 	font-weight: bold;
+}
+span.rojo{
+	color: #760707;
+}
+span.verde{
+	color: #265705;
 }
